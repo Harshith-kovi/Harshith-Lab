@@ -1,0 +1,21 @@
+package Practicals;
+
+public class Basic {
+    public static void main(String[] args) {
+        int a=10;
+        double b=3.0;
+        char letter = 'A';
+        boolean isJavaFun = true;
+
+        int sum= a+(int) b;
+        double division = a/b;
+        int remainder = a % 3;
+        String msg = "Value of a: " + a + ", Value of b: " + b;
+        System.out.println(msg);
+        System.out.println("Sum: " + sum);
+        System.out.println("Division: " + division);
+        System.out.println("Remainder: " + remainder);
+        System.out.println("Letter = " + letter + ", Is Java fun? " + isJavaFun);
+        System.out.println("2462636");
+    }
+}   
